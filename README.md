@@ -1,17 +1,21 @@
 # Attention is not not Explanation
 
-Code for the EMNLP 2019 paper *[Attention is not not Explanation](https://arxiv.org/abs/1908.04626)* by Wiegreffe & Pinter.
+Code for the EMNLP 2019 paper *[Attention is not not Explanation](https://www.aclweb.org/anthology/D19-1002/)* by Wiegreffe & Pinter.
 
 When using this codebase, please cite:
 ```
-@inproceedings{wiegreffe2019attention,
-  title={Attention is not not Explanation},
-  author={Wiegreffe, Sarah and Pinter, Yuval},
-  booktitle={"Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing"},
-  year={2019},
-  month = nov
-  address = "Hong Kong"
-  publisher = "Association for Computational Linguistics"
+@inproceedings{wiegreffe-pinter-2019-attention,
+    title = "Attention is not not Explanation",
+    author = "Wiegreffe, Sarah  and
+      Pinter, Yuval",
+    booktitle = "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+    month = nov,
+    year = "2019",
+    address = "Hong Kong, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/D19-1002",
+    doi = "10.18653/v1/D19-1002",
+    pages = "11--20"
 }
 ```
 
