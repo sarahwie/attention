@@ -10,9 +10,9 @@ from sklearn.utils import shuffle
 from tqdm import tqdm
 import time
 
-from Transparency.model.modules.Decoder import AttnDecoder, FrozenAttnDecoder, PretrainedWeightsDecoder
-from Transparency.model.modules.Encoder import Encoder
-from Transparency.common_code.metrics import batch_tvd
+from attention.model.modules.Decoder import AttnDecoder, FrozenAttnDecoder, PretrainedWeightsDecoder
+from attention.model.modules.Encoder import Encoder
+from attention.common_code.metrics import batch_tvd
 
 from .modelUtils import BatchHolder, get_sorting_index_with_noise_from_lengths
 from .modelUtils import jsd as js_divergence

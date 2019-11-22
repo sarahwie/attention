@@ -24,6 +24,7 @@ We've based our repository on the [code](https://github.com/successar/AttentionE
 Dependencies
 --------------
 Please refer to the installation instructions for the repository provided by [Jain & Wallace](https://github.com/successar/AttentionExplanation). We use the same dependencies.
+Also, make sure to export the meta-directory into which you clone `attention` to your PYTHONPATH in order for the imports to work correctly. For example, if the path to the cloned directory is `/home/users/attention/`, then run `export PYTHONPATH='/home/users'`.
 
 Data Preprocessing
 --------------

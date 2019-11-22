@@ -4,8 +4,8 @@ import torch.nn as nn
 from typing import Dict
 from allennlp.common import Params
 
-from Transparency.model.modules.Attention import Attention
-from Transparency.model.modelUtils import isTrue, BatchHolder
+from attention.model.modules.Attention import Attention
+from attention.model.modelUtils import isTrue, BatchHolder
 
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
@@ -59,7 +59,7 @@ class FrozenAttnDecoder(AttnDecoder) :
         data.predict = predict
 
 
-class PretrainedWeightsAttnDecoder(AttnDecoder) :
+class PretrainedWeightsDecoder(AttnDecoder) :
 
     def forward(self, data:BatchHolder) :
         if self.use_attention :

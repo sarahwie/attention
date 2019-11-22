@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 
-from Transparency.model.modelUtils import isTrue
+from attention.model.modelUtils import isTrue
 from allennlp.common import Registrable
 from allennlp.nn.activations import Activation
 

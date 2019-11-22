@@ -1,5 +1,5 @@
-from Transparency.configurations import generate_config
-from Transparency.Trainers.TrainerBC import Trainer, Evaluator
+from attention.configurations import generate_config
+from attention.Trainers.TrainerBC import Trainer, Evaluator
             
 def train_dataset(dataset, args, config='lstm') :
         config = generate_config(dataset, args, config)

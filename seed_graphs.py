@@ -7,11 +7,11 @@ import os
 import matplotlib.pyplot as plt
 from glob import glob
 
-from Transparency.common_code.common import jsd, get_latest_model
-from Transparency.common_code.plotting import annotate, \
+from attention.common_code.common import jsd, get_latest_model
+from attention.common_code.plotting import annotate, \
             plot_violin_by_class, plot_scatter_by_class, \
             init_gridspec, adjust_gridspec, show_gridspec, save_axis_in_file
-from Transparency.Trainers.DatasetBC import datasets
+from attention.Trainers.DatasetBC import datasets
 
 
 

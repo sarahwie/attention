@@ -1,5 +1,5 @@
-from Transparency.common_code.metrics import calc_metrics_classification, print_metrics
-import Transparency.model.Binary_Classification as BC
+from attention.common_code.metrics import calc_metrics_classification, print_metrics
+import attention.model.Binary_Classification as BC
 import codecs, json
 from tqdm import tqdm
 import numpy as np

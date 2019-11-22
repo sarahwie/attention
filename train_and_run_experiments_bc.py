@@ -19,8 +19,8 @@ args, extras = parser.parse_known_args()
 args.extras = extras
 args.command = ' '.join(['python'] + sys.argv)
 
-from Transparency.Trainers.DatasetBC import datasets
-from Transparency.ExperimentsBC import train_dataset_on_encoders
+from attention.Trainers.DatasetBC import datasets
+from attention.ExperimentsBC import train_dataset_on_encoders
 
 import torch
 import numpy as np
