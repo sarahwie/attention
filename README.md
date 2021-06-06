@@ -44,10 +44,12 @@ Running Random Seeds Experiments (Section 3.2)
 - `parallel ./run_seeds.sh :::: seeds.txt ::: sst AgNews imdb 20News_sports Diabetes Anemia`
 - Code for constructing the violin plots in Figure 3 can be found in `seed_graphs.py` and `Seed_graphs.ipynb`.
 
+Running BOWs Experiments (Section 3.3)
+--------------
+- To run the Bag of Words model with trained (MLP) attention weights: `./run_bows_baselines.sh [Diabetes, Anemia, AgNews, 20News_sports, imdb, sst]`
+- To run the Bag of Words model with uniform attention weights: `./run_bows_frozen_attn.sh [Diabetes, Anemia, AgNews, 20News_sports, imdb, sst]`
+- To run the Bag of Words model with frozen attention weights from another model: `./run_bows_set_to_pretrained_distribution.sh [Diabetes, Anemia, AgNews, 20News_sports, imdb, sst] [path/to/saved/model/with/attention/weights]`
+
 Running Adversarial Model Experiments (Section 4)
 --------------
 - `./run_adversarial.sh [Diabetes, Anemia, AgNews, 20News_sports, imdb, sst] [lambda_value] [path/to/saved/model/with/gold/attentions/and/predictions]`
-
-Remaining Todos
---------------
-- 3.3 BOWs experiments
